@@ -786,13 +786,13 @@
 
 	oplus_cpa: oplus,cpa {
 		compatible = "oplus,cpa";
-		oplus,protocol_list = <CHG_PROTOCOL_UFCS  80
-					CHG_PROTOCOL_VOOC 80
+		oplus,protocol_list = <CHG_PROTOCOL_VOOC  100
+					CHG_PROTOCOL_UFCS  80
 					CHG_PROTOCOL_PPS  33
 					CHG_PROTOCOL_PD   18
 					CHG_PROTOCOL_QC   18>;
-		oplus,default_protocol_list = <CHG_PROTOCOL_UFCS
-						CHG_PROTOCOL_VOOC
+		oplus,default_protocol_list = <CHG_PROTOCOL_VOOC
+						CHG_PROTOCOL_UFCS
 						CHG_PROTOCOL_PPS
 						CHG_PROTOCOL_PD>;
 	};
